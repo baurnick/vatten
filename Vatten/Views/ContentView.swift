@@ -18,7 +18,7 @@ struct ContentView: View {
                         .tracking(10)
                         
                         Text("Vergiss mit der Vatten App nie mehr deine Pflanzen zu giessen!")
-                            .font(.system(size: 24))
+                            .font(.system(size: 18))
                             .fontWeight(.thin)
                     }
                     Spacer()
@@ -33,10 +33,11 @@ struct ContentView: View {
                 
                 
                 NavigationLink {
-                    // TBD
+                    RegisterView()
+                        .toolbarRole(.editor)
                 } label: {
                     Text("Registrieren")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.background)
                         .font(.system(size: 18))
                         .bold()
                         .frame(maxWidth: .infinity, maxHeight: 50)
@@ -47,7 +48,8 @@ struct ContentView: View {
                 
                 
                 NavigationLink {
-                    // TBD
+                    LoginView()
+                        .toolbarRole(.editor)
                 } label: {
                     Text("Anmelden")
                         .foregroundColor(Color.main)

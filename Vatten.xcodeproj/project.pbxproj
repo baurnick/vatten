@@ -14,6 +14,8 @@
 		019CBD192A97A7EF00FC39BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBD182A97A7EF00FC39BB /* Extensions.swift */; };
 		019CBD1C2A97AB0400FC39BB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBD1B2A97AB0400FC39BB /* SplashView.swift */; };
 		01D266132A98B52200A42079 /* IBM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D266122A98B52200A42079 /* IBM.ttf */; };
+		01D266162A98BD8E00A42079 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D266152A98BD8E00A42079 /* RegisterView.swift */; };
+		01D266182A98EB0400A42079 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D266172A98EB0400A42079 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		019CBD1B2A97AB0400FC39BB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		01D266112A98B49A00A42079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		01D266122A98B52200A42079 /* IBM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IBM.ttf; sourceTree = "<group>"; };
+		01D266152A98BD8E00A42079 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		01D266172A98EB0400A42079 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		019CBD1A2A97AAE300FC39BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				01D266142A98BD8000A42079 /* Auth */,
 				019CBD0A2A97A67A00FC39BB /* ContentView.swift */,
 				019CBD1B2A97AB0400FC39BB /* SplashView.swift */,
 			);
@@ -100,6 +105,15 @@
 				01D266122A98B52200A42079 /* IBM.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		01D266142A98BD8000A42079 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				01D266152A98BD8E00A42079 /* RegisterView.swift */,
+				01D266172A98EB0400A42079 /* LoginView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D266182A98EB0400A42079 /* LoginView.swift in Sources */,
 				019CBD0B2A97A67A00FC39BB /* ContentView.swift in Sources */,
+				01D266162A98BD8E00A42079 /* RegisterView.swift in Sources */,
 				019CBD1C2A97AB0400FC39BB /* SplashView.swift in Sources */,
 				019CBD192A97A7EF00FC39BB /* Extensions.swift in Sources */,
 				019CBD092A97A67A00FC39BB /* VattenApp.swift in Sources */,
@@ -314,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
