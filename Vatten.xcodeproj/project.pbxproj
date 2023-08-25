@@ -13,6 +13,7 @@
 		019CBD102A97A67B00FC39BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019CBD0F2A97A67B00FC39BB /* Preview Assets.xcassets */; };
 		019CBD192A97A7EF00FC39BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBD182A97A7EF00FC39BB /* Extensions.swift */; };
 		019CBD1C2A97AB0400FC39BB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CBD1B2A97AB0400FC39BB /* SplashView.swift */; };
+		01D266132A98B52200A42079 /* IBM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D266122A98B52200A42079 /* IBM.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		019CBD0F2A97A67B00FC39BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		019CBD182A97A7EF00FC39BB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		019CBD1B2A97AB0400FC39BB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		01D266112A98B49A00A42079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		01D266122A98B52200A42079 /* IBM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IBM.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +58,9 @@
 		019CBD072A97A67A00FC39BB /* Vatten */ = {
 			isa = PBXGroup;
 			children = (
+				01D266112A98B49A00A42079 /* Info.plist */,
 				019CBD082A97A67A00FC39BB /* VattenApp.swift */,
+				01D2660E2A98B42E00A42079 /* Font */,
 				019CBD172A97A7E100FC39BB /* Utility */,
 				019CBD1A2A97AAE300FC39BB /* Views */,
 				019CBD0C2A97A67B00FC39BB /* Assets.xcassets */,
@@ -87,6 +92,14 @@
 				019CBD1B2A97AB0400FC39BB /* SplashView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		01D2660E2A98B42E00A42079 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				01D266122A98B52200A42079 /* IBM.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D266132A98B52200A42079 /* IBM.ttf in Resources */,
 				019CBD102A97A67B00FC39BB /* Preview Assets.xcassets in Resources */,
 				019CBD0D2A97A67B00FC39BB /* Assets.xcassets in Resources */,
 			);
@@ -294,6 +308,7 @@
 				DEVELOPMENT_TEAM = 26ZTD48MZG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vatten/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +338,7 @@
 				DEVELOPMENT_TEAM = 26ZTD48MZG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vatten/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
